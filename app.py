@@ -6,6 +6,7 @@ import models
 from dotenv import load_dotenv
 # List of endpoints
 from resources.store_api import blp as StoreBlueprint
+from resources.item_api import blp as ItemBlueprint
 
 load_dotenv()
 
@@ -29,7 +30,7 @@ def create_app():
     api = Api(app)
 
     api.register_blueprint(StoreBlueprint)
-
+    api.register_blueprint(ItemBlueprint)
 
     db.init_app(app)
 

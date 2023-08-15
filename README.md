@@ -37,6 +37,8 @@ Se você estiver instalando a primeira vez este sistema basta criar um **ambient
 python3.10 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 ```
 
+Então criar um arquivo .env que tenha as mesmas variaveis preenchidas do arquivo **.env_example**
+
 Após isto basta iniciar o aplicativo (em ambiente de desenvolvimento) com:
 
 ```
