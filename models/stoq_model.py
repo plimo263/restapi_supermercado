@@ -1,7 +1,7 @@
 from extensios import db
 
 
-class EstoqueModel(db.Model):
+class StoqModel(db.Model):
     __tablename__ = "estoque"
 
     id = db.Column(db.Integer, primary_key = True)

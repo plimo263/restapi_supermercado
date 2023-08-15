@@ -1,7 +1,7 @@
 from extensios import db
 from sqlalchemy import func
 
-class NotaFiscalModel(db.Model):
+class InvoiceModel(db.Model):
     __tablename__ = "nota_fiscal"
 
     id = db.Column(db.Integer, primary_key = True)

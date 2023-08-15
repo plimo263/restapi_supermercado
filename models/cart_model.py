@@ -1,7 +1,7 @@
 from extensios import db
 
 
-class CarrinhoModel(db.Model):
+class CartModel(db.Model):
     __tablename__ = "carrinho"
 
     id = db.Column(db.Integer, primary_key = True)

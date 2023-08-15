@@ -1,6 +1,6 @@
 from extensios import db
 
-class NotaFiscaItemModel(db.Model):
+class InvoiceItemModel(db.Model):
     __tablename__ = "nota_fiscal_item"
 
     id = db.Column(db.Integer, primary_key = True)
